@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+html, form, select, option {
+	font-family : "ＭＳ Ｐゴシック", "Sans-Serif";
+}
+
+body {
+	padding:0; margin:0px; font-size:12px;
+	background-attachment : fixed;	
+}
+
+/* フォントサイズ */
+.css16-00 {font-size:16px; color:#666666;}
+.css14-00 {font-size:14px; color:#666666;}
+.css12-00 {font-size:12px; color:#666666;}
+.css11-00 {font-size:11px; color:#666666;}
+.css10-00 {font-size:10px; color:#666666;}
+.css09-00 {font-size:9px; color:#666666;}
+
+.css16-01 {font-size:16px; line-height: 15px; color:#666666;}
+.css14-01 {font-size:14px; line-height: 15px; color:#666666;}
+.css12-01 {font-size:12px; line-height: 15px; color:#666666;}
+.css11-01 {font-size:11px; line-height: 15px; color:#666666;}
+.css10-01 {font-size:10px; line-height: 15px; color:#666666;}
+.css09-01 {font-size:9px; line-height: 15px; color:#666666;}
+
+.css16-02 {font-size:16px; line-height: 18px; color:#666666;}
+.css14-02 {font-size:14px; line-height: 18px; color:#666666;}
+.css12-02 {font-size:12px; line-height: 18px; color:#666666;}
+.css11-02 {font-size:11px; line-height: 18px; color:#666666;}
+.css10-02 {font-size:10px; line-height: 18px; color:#666666;}
+.css09-02 {font-size:9px; line-height: 18px; color:#666666;}
+
+/*リンク*/
+a:link { color:#3366FF; text-decoration:none;}
+a:active { color:#aaaaaa; text-decoration:none;}
+a:visited { color:#3366FF; text-decoration:none;}
+a:hover { color:#aaaaaa; text-decoration:underline;}
+
+/*リンク（アンダーバーあり）*/
+a.link-under:link { color:#3366FF; text-decoration:underline;}
+a.link-under:active { color:#aaaaaa; text-decoration:underline;}
+a.link-under:visited { color:#3366FF; text-decoration:underline;}
+a.link-under:hover { color:#aaaaaa; text-decoration:underline;}
+
+/*リンク（白）*/
+a.link-white:link { color:#ffffff; text-decoration:none;}
+a.link-white:active { color:#aaaaaa; text-decoration:none;}
+a.link-white:visited { color:#ffffff; text-decoration:none;}
+a.link-white:hover { color:#aaaaaa; text-decoration:underline;}
+
+/* ラインカラー */
+hr{color:#888888;}
+
+body { scrollbar-3dlight-color:#CCCCCC; 
+         scrollbar-arrow-color:#CCCCCC; 
+         scrollbar-base-color:#CCCCCC; 
+         scrollbar-darkshadow-color:#FFFFFF; 
+         scrollbar-face-color:#FFFFFF; 
+         scrollbar-highlight-color:#FFFFFF; 
+         scrollbar-shadow-color:#CCCCCC }
+
+				 
+				 
+.border_bottom_Dot {
+     border-bottom:dotted #CCCCCC 1px;
+}
+.border {
+     border-top:solid #CCCCCC 1px;
+		 border-right:solid #CCCCCC 1px;
+		 border-left:solid #CCCCCC 1px;
+		 border-bottom:solid #CCCCCC 1px;
+}
+.td_border {
+     border-top:solid #CCCCCC 1px;
+		 border-right:solid #CCCCCC 1px;
+		 border-left:solid #CCCCCC 1px;
+		 border-bottom:solid #CCCCCC 1px;
+}
+
+
+
+.orange {color: #FFAA42}
+
